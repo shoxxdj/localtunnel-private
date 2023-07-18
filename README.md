@@ -36,6 +36,14 @@ Thats it! It will connect to the tunnel server, setup the tunnel, and tell you w
 
 You can restart your local server all you want, `lt` is smart enough to detect this and reconnect once it is back.
 
+### Config 
+
+First copy config/default.json to : ~/.config/localtunnel/config
+Edit "server:host" to your hostname 
+
+Then add a "totp" entry, and paste the object sent by your administrator
+
+
 ### Arguments
 
 Below are some common arguments. See `lt --help` for additional arguments
